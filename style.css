@@ -1,0 +1,116 @@
+html{
+    height:100%;
+    background: radial-gradient(circle,#fff,#ccc);
+}
+
+#continer{
+    height:600px;
+    width:900px;
+    background-color: #9DD2EA;
+    margin:15px auto;
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 0px 4px 0px 0px rgb(112, 128, 221);
+    position:relative;
+}
+#score{
+  background-color:rgb(180, 224, 92) ;
+  color: green;
+  padding: 15px;
+  position: absolute;
+  left:830px;
+  box-shadow:0px 4px 0px rgb(185, 34, 34);
+  border-radius: 10px;
+}
+
+#fruitcontiner{
+  width:870px;
+  height:400px;
+  background:white;
+  margin:60px auto 10px auto;
+  font-family: cursive;
+  font-size: 10em;
+  text-align: center;
+  line-height: 170px;
+  border-radius: 20px;
+  border:10px solid rgba(86, 66, 94, 0.829);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+#instruction{
+    height:60px;
+    width:670px;
+    background:rgb(14, 39, 49);
+    color: white;
+    margin: 0px auto;
+    font-size: 2.5em;
+    padding: 5px;
+    font-family: cursive;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 40px;
+}
+
+
+
+.box:hover , #startreset:hover{
+    background: darkorchid;
+    color: white;
+    box-shadow: 0px 4px 0px rgba(49, 37, 155, 0.349);
+}
+ #startreset:active{
+    top:4px;
+    box-shadow: 0px 0px ;
+}
+
+#startreset{
+    width:100px;
+    background: white;
+    border-radius:4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px rgba(7, 207, 191, 0.733);
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+    font-family: cursive;
+    position: relative;
+    transition: all 0.5s;
+}
+
+#trailsleft{
+    width: 80px ;
+    padding: 10px;
+    background: rgb(180, 224, 92) ;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    border-radius: 10px;
+    font-family: cursive;
+    display: none;
+}
+#gameover{
+  width: 900px;
+  height: 300px;
+  background: linear-gradient(#F7786B,rgb(209, 62, 46)); 
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: cursive;
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  z-index: 2;
+  display: none;
+}
+.life{
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+.fruit{
+    display: none;
+    position: absolute;
+}
